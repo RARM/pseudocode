@@ -108,6 +108,23 @@ ENTRY_FUNCTION with INTEGER arguments_counter, STRING ARRAY arguments
 END_ENTRY_FUNCTION
 ```
 
+**EXCEPTIONS**
+
+Although things like data abstraction, modularity, and error handling are ignored most of the time in pseudocode (because pseudocode focuses in the essence of the algorithm), it may be helpful to explicitly go over these things (in specific scenarios) in pseudocode.
+
+Keywords: `BEGIN_EXCEPTION`, `END_EXCEPTION`, `EXCEPTION`, `WHEN`
+
+```
+BEGIN_EXCEPTION
+	statements
+	EXCEPTION
+		WHEN exception1
+			statements to handle exception1
+		WHEN exception2
+			statements to handle exception2
+END_EXCEPTION
+```
+
 ### Structures and Objects
 Not all languages are object-oriented (like plain old `C`), so use this with caution. Regardless, pseudocode that contains objects could be implemented in `C` with the use of structures. It may be limited since there will be no _behaviors_, but there is always a workaround.
 
