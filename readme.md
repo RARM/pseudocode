@@ -4,6 +4,8 @@
 
 **Of course, this does not mean that the pseudocode shouldn't have coherence. It should be easy to understand. This means that some conventionality is accepted (for example, using `x = 0` is a common way to refer to assignment, but it shouldn't be the strictly the case; `assign x the value of 0` should be accepted as well, although it may be a bit impractical since it is wordy).**
 
+---
+
 This is a personal quick reference on pseudocode syntax. There is no official pseudocode syntax, but I made this reference so I can have some consistency among my pseudocodes.
 
 Some things came from a [towards data science](https://towardsdatascience.com/pseudocode-101-an-introduction-to-writing-good-pseudocode-1331cb855be7) article, some from [Flogorithm](http://flowgorithm.org/), and some came from my own experience.
