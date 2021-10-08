@@ -2,7 +2,7 @@
 
 **P.S.: Developing a syntax specification for pseudocode, as it is done here, defeats the purpose of using pseudocode, which is to simplifying instructions (algorithms) in a way that they are understandable and not tied to a specific programming language. Having a specification implies that there is a right syntax (that syntax could very easily become a programming language, which has happened). This, again, defeats one important purpose for using pseudocode, namely _that it is not tied to a specific language_.**
 
-**Of course, this does not mean that the pseudocode shouldn't have coherence. It should be easy to understand. This means that some conventionality is accepted (for example, using `x = 0` is a common way to refer to assignment, but it shouldn't be the strictly the case; `assign x the value of 0` should be accepted as well, although it may be a bit impractical since it is wordy).**
+**Of course, this does not mean that the pseudocode shouldn't have coherence. It should be easy to understand. This means that some conventionality is accepted (for example, using `x = 0` is a common way to refer to assignment, but it shouldn't be strictly the case; `assign x the value of 0` should be accepted as well, although it may be a bit impractical since it is wordy).**
 
 ---
 
